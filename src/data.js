@@ -10,13 +10,7 @@ export const htmlCssPortfolio = [
 		title: 'HTML and CSS website',
 		img: 'assets/img/html-css.jpg',
 		link: '#',
-	},
-	{
-		id: 3,
-		title: 'HTML and CSS website',
-		img: 'assets/img/html-css.jpg',
-		link: '#',
-	},	
+	},		
 ];
 
 export const javascriptPortfolio = [
@@ -28,12 +22,6 @@ export const javascriptPortfolio = [
 	},
 	{
 		id: 2,
-		title: 'JavaScript app',
-		img: 'assets/img/javascript.jpg',
-		link: '#',
-	},
-	{
-		id: 3,
 		title: 'JavaScript app',
 		img: 'assets/img/javascript.jpg',
 		link: '#',
@@ -52,13 +40,7 @@ export const reactPortfolio = [
 		title: 'React app',
 		img: 'assets/img/react.jpg',
 		link: '#',
-	},
-	{
-		id: 3,
-		title: 'React app',
-		img: 'assets/img/react.jpg',
-		link: '#',
-	},	
+	},		
 ];
 
 export const reduxPortfolio = [
@@ -70,12 +52,6 @@ export const reduxPortfolio = [
 	},
 	{
 		id: 2,
-		title: 'Redux app',
-		img: 'assets/img/redux.jpg',
-		link: '#',
-	},
-	{
-		id: 3,
 		title: 'Redux app',
 		img: 'assets/img/redux.jpg',
 		link: '#',
@@ -95,12 +71,6 @@ export const nodePortfolio = [
 		title: 'Node.js app',
 		img: 'assets/img/node.jpg',
 		link: '#',
-	},
-	{
-		id: 3,
-		title: 'Node.js app',
-		img: 'assets/img/node.jpg',
-		link: '#',
-	},	
+	},		
 ];
 

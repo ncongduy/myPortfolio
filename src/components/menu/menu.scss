@@ -39,5 +39,15 @@
                 font-weight: 500;
             }
         }
+
+        .contact {
+            display: none;
+
+            @include mobile {
+                display: block;
+                color: #fff;
+                background-color: $mainColor;
+            }
+        }
     }
 }

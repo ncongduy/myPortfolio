@@ -29,21 +29,13 @@
 			}
 
 			.itemContainer {
-				margin-left: 40px;
-				display: flex;
-				align-items: center;
-
-				.icon {
-					font-size: 18px;
-					margin-right: 5px;
+				margin-left: 30px;
+				
+				@include mobile {
+					display: none;
 				}
 
-				span {
-					font-size: 15px;
-					font-weight: 500;
-				}
-
-				a {
+				.itemBox {
 					display: flex;
 					align-items: center;
 					text-decoration: none;
@@ -58,6 +50,10 @@
 						font-size: 15px;
 						font-weight: 500;
 					}
+				}
+
+				.email {					
+					cursor: text;					
 				}
 			}
 		}
@@ -86,14 +82,14 @@
 		background-color: $mainColor;
 		color: #fff;
 
-		.wrapper {			
+		.wrapper {
 			.left {
-				.itemContainer {	
-					a {
-						color: #fff;						
+				.itemContainer {
+					.itemBox {
+						color: #fff;
 					}
 				}
-			}			
+			}
 		}
 
 		.hamburger {

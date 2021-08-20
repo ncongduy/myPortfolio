@@ -60,7 +60,7 @@ export default function Portfolio() {
 
 	return (
 		<div className="portfolio" id="portfolio">
-			<h1>Portfolio</h1>
+			<h1>My Learning</h1>
 			<ul>
 				{list.map((item) => (
 					<PortfolioList
@@ -74,7 +74,7 @@ export default function Portfolio() {
 			<div className="container">
 				{data.map((dt) => (
 					<a className="item" href={dt.link} target="blank">
-						<img src={dt.img} alt={dt.title} width="220px" />
+						<img src={dt.img} alt={dt.title} width="440px" />
 						<h3>{dt.title}</h3>
 					</a>
 				))}

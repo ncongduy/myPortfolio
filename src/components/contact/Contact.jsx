@@ -1,28 +1,47 @@
-import { SpaRounded } from '@material-ui/icons';
-import { React, useState } from 'react';
+import React from 'react';
 import './contact.scss';
+import { PhoneIphone, Mail, LinkedIn, GitHub } from '@material-ui/icons';
 
 export default function Contact() {
-	const [message, setMessage] = useState(false);
-
-	const handleSubmit = (evt) => {
-		evt.preventDefault();
-		setMessage(true);
-	};
-
 	return (
 		<div className="contact" id="contact">
-			<div className="left">
-				<img src="assets/img/shakehand.svg" alt="shake hand" />
-			</div>
-			<div className="right">
-				<h2>Contact.</h2>
-				<form onSubmit={handleSubmit}>
-					<input type="email" placeholder="Email" />
-					<textarea placeholder="Message"></textarea>
-					<button type="submit">Send</button>
-					{message && <span>Thanks, I'll reply ASAP.</span>}
-				</form>
+			<h1>Contact</h1>
+			<div className="boxContainer">
+				<div className="itemContainer">
+					<div href="#intro" className="itemBox">
+						<PhoneIphone className="icon" />
+						<span>+358 46 681 5155</span>
+					</div>
+				</div>
+
+				<div className="itemContainer">
+					<div href="#intro" className="itemBox">
+						<Mail className="icon" />
+						<span>ncongduy@gmail.com</span>
+					</div>
+				</div>
+
+				<div className="itemContainer">
+					<a
+						href="https://www.linkedin.com/in/duy-nguyen-55b850197/"
+						target="blank"
+                        className="itemBox"
+					>
+						<LinkedIn className="icon" />
+						<span>LinkedIn</span>
+					</a>
+				</div>
+
+				<div className="itemContainer">
+					<a
+						href="https://github.com/ncongduy?tab=repositories"
+						target="blank"
+                        className="itemBox"
+					>
+						<GitHub className="icon" />
+						<span>GitHub</span>
+					</a>
+				</div>
 			</div>
 		</div>
 	);

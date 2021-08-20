@@ -31,10 +31,7 @@ export default function Intro() {
 					<h3>
 						Developer <span ref={textRef}></span>
 					</h3>
-				</div>
-				<a href="#portfolio">
-					<i className="ti-angle-double-down"></i>
-				</a>
+				</div>				
 			</div>
 		</div>
 	);
