@@ -1,6 +1,7 @@
 import { React, useEffect, useRef } from 'react';
 import './intro.scss';
 import { init } from 'ityped';
+import me from '../../img/me.jpg';
 
 export default function Intro() {
 	const textRef = useRef();
@@ -19,7 +20,7 @@ export default function Intro() {
 			{/* On the left part */}
 			<div className="left">
 				<div className="img-container">
-					<img src="assets/img/me.jpg" alt="" />
+					<img src={me} alt="" />
 				</div>
 			</div>
 

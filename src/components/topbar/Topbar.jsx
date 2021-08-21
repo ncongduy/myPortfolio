@@ -1,10 +1,11 @@
 import React from 'react';
 import './topbar.scss';
 import { PhoneIphone, Mail, LinkedIn, GitHub } from '@material-ui/icons';
+import { RightTopbar } from './RightTopbar';
 
 export default function Topbar({ menuOpen, setMenuOpen }) {
 	return (
-		<div className={'topbar ' + (menuOpen && 'active')} id="topbar">
+		<div className={menuOpen ? 'topbar active' : 'topbar'} id="topbar">
 			<div className="wrapper">
 				{/* left Topbar */}
 				<div className="left">
@@ -48,19 +49,11 @@ export default function Topbar({ menuOpen, setMenuOpen }) {
 						</a>
 					</div>
 				</div>
-
-				{/* right Topbar */}
-				<div className="right">
-					<div
-						className="hamburger"
-						onClick={() => setMenuOpen(!menuOpen)}
-					>
-						<span className="line1"></span>
-						<span className="line2"></span>
-						<span className="line3"></span>
-					</div>
-				</div>
+				
+				<RightTopbar menuOpen={menuOpen} setMenuOpen={setMenuOpen}/>
 			</div>
 		</div>
 	);
 }
+
+
