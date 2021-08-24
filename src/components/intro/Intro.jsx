@@ -1,6 +1,8 @@
 import { React, useEffect, useRef } from 'react';
 import './intro.scss';
 import { init } from 'ityped';
+import { LeftIntro } from './LeftIntro';
+import { RightIntro } from './RightIntro';
 
 export default function Intro() {
 	const textRef = useRef();
@@ -16,26 +18,10 @@ export default function Intro() {
 
 	return (
 		<div className="intro" id="intro">
-			{/* On the left part */}
-			<div className="left">
-				<div className="img-container">
-					<img
-						src={process.env.PUBLIC_URL + '/assets/img/me.jpg'}
-						alt=""
-					/>
-				</div>
-			</div>
-
-			{/* On the right part */}
-			<div className="right">
-				<div className="wrapper">
-					<h2>Hi there, I'm</h2>
-					<h1>Duy</h1>
-					<h3>
-						Developer <span ref={textRef}></span>
-					</h3>
-				</div>
-			</div>
+			<LeftIntro />
+			<RightIntro textRef={textRef} />
 		</div>
 	);
 }
+
+
