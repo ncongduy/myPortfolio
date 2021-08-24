@@ -1,7 +1,6 @@
 import { React, useEffect, useRef } from 'react';
 import './intro.scss';
 import { init } from 'ityped';
-import me from '../../img/me.jpg';
 
 export default function Intro() {
 	const textRef = useRef();
@@ -20,7 +19,10 @@ export default function Intro() {
 			{/* On the left part */}
 			<div className="left">
 				<div className="img-container">
-					<img src={me} alt="" />
+					<img
+						src={process.env.PUBLIC_URL + '/assets/img/me.jpg'}
+						alt=""
+					/>
 				</div>
 			</div>
 
@@ -32,7 +34,7 @@ export default function Intro() {
 					<h3>
 						Developer <span ref={textRef}></span>
 					</h3>
-				</div>				
+				</div>
 			</div>
 		</div>
 	);

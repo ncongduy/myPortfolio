@@ -1,14 +1,14 @@
 export const htmlCssPortfolio = [
 	{
 		id: 1,
-		title: 'HTML and CSS website',
-		img: 'assets/img/html-css.jpg',
-		link: 'https://www.google.fi/',
+		title: 'W3_band',
+		img: '/assets/img/html-css-exercise1.jpg',
+		link: 'https://ncongduy.github.io/f8-shop/w3_band/index.html',
 	},
 	{
 		id: 2,
 		title: 'HTML and CSS website',
-		img: 'assets/img/html-css.jpg',
+		img: '/assets/img/html-css.jpg',
 		link: '#',
 	},		
 ];
@@ -16,14 +16,14 @@ export const htmlCssPortfolio = [
 export const javascriptPortfolio = [
 	{
 		id: 1,
-		title: 'JavaScript app',
-		img: 'assets/img/javascript.jpg',
-		link: '#',
+		title: 'Matching game',
+		img: '/assets/img/matching-game.png',
+		link: 'https://ncongduy.github.io/fend-project-memory-game/',
 	},
 	{
 		id: 2,
 		title: 'JavaScript app',
-		img: 'assets/img/javascript.jpg',
+		img: '/assets/img/javascript.jpg',
 		link: '#',
 	},	
 ];
@@ -32,13 +32,13 @@ export const reactPortfolio = [
 	{
 		id: 1,
 		title: 'React app',
-		img: 'assets/img/react.jpg',
+		img: '/assets/img/react.jpg',
 		link: '#',
 	},
 	{
 		id: 2,
 		title: 'React app',
-		img: 'assets/img/react.jpg',
+		img: '/assets/img/react.jpg',
 		link: '#',
 	},		
 ];
@@ -47,13 +47,13 @@ export const reduxPortfolio = [
 	{
 		id: 1,
 		title: 'Redux app',
-		img: 'assets/img/redux.jpg',
+		img: '/assets/img/redux.jpg',
 		link: '#',
 	},
 	{
 		id: 2,
 		title: 'Redux app',
-		img: 'assets/img/redux.jpg',
+		img: '/assets/img/redux.jpg',
 		link: '#',
 	},	
 ];
@@ -63,13 +63,13 @@ export const nodePortfolio = [
 	{
 		id: 1,
 		title: 'Node.js app',
-		img: 'assets/img/node.jpg',
+		img: '/assets/img/node.jpg',
 		link: '#',
 	},
 	{
 		id: 2,
 		title: 'Node.js app',
-		img: 'assets/img/node.jpg',
+		img: '/assets/img/node.jpg',
 		link: '#',
 	},		
 ];
