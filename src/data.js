@@ -1,3 +1,26 @@
+export const list = [
+	{
+		id: 'html&css',
+		title: 'HTML & CSS',
+	},
+	{
+		id: 'javascript',
+		title: 'JavaScript',
+	},
+	{
+		id: 'react',
+		title: 'React',
+	},
+	{
+		id: 'redux',
+		title: 'Redux',
+	},
+	{
+		id: 'node.js',
+		title: 'Node.js',
+	},
+];
+
 export const htmlCssPortfolio = [
 	{
 		id: 1,
