@@ -1,9 +1,9 @@
 import React from 'react';
 import './contact.scss';
-import { PhoneComponent } from './PhoneComponent';
-import { MailComponent } from './MailComponent';
-import { LinkedInComponent } from './LinkedInComponent';
-import { GitHubComponent } from './GitHubComponent';
+import { PhoneComponent } from './phone/PhoneComponent';
+import { MailComponent } from './mail/MailComponent';
+import { LinkedInComponent } from './linkedin/LinkedInComponent';
+import { GitHubComponent } from './github/GitHubComponent';
 
 export default function Contact() {
 	return (

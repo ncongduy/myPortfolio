@@ -1,5 +1,5 @@
 import React, { useContext } from 'react';
-import { OpenContext } from '../../App';
+import { OpenContext } from '../../../App';
 
 export const RightTopbar = () => {
 	const [menuOpen, setMenuOpen] = useContext(OpenContext);

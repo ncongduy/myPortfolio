@@ -1,8 +1,8 @@
 import { React, useEffect, useRef } from 'react';
 import './intro.scss';
 import { init } from 'ityped';
-import { LeftIntro } from './LeftIntro';
-import { RightIntro } from './RightIntro';
+import { LeftIntro } from './leftIntro/LeftIntro';
+import { RightIntro } from './rightIntro/RightIntro';
 
 export default function Intro() {
 	const textRef = useRef();
