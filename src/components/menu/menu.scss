@@ -48,6 +48,12 @@
                 color: #fff;
                 background-color: $mainColor;
             }
+
+            @include tablet {
+                display: block;
+                color: #fff;
+                background-color: $mainColor;
+            }
         }
     }
 }

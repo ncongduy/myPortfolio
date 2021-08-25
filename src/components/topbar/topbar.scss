@@ -35,6 +35,10 @@
 					display: none;
 				}
 
+				@include tablet {
+					display: none;
+				}
+
 				.itemBox {
 					display: flex;
 					align-items: center;

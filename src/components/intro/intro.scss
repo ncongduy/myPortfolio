@@ -9,6 +9,12 @@
 		align-items: center;
 	}
 
+	@include tablet {
+		flex-direction: column;
+		align-items: center;
+		justify-content: space-around;		
+	}
+
 	.left {
 		flex: 0.5;
 		overflow: hidden;	
@@ -17,11 +23,19 @@
 			flex: 1;
 		}
 
+		@include tablet {
+			flex: 1;
+		}
+
 		.img-container {
 			width: 700px;
 			height: 700px;
-
+			
 			@include mobile {
+				width: 100%;
+			}
+
+			@include tablet {
 				width: 100%;
 			}
 
@@ -32,6 +46,10 @@
 				
 				@include mobile {
 					height: 50%;
+					margin-left: 0;					
+				}
+
+				@include tablet {					
 					margin-left: 0;					
 				}
 			}
@@ -46,6 +64,10 @@
 			flex: 1;
 		}
 
+		@include tablet {
+			flex: 1;
+		}
+
 		.wrapper {
 			width: 100%;
 			height: 100%;
@@ -55,6 +77,11 @@
 			justify-content: center;
 
 			@include mobile {
+				padding-left: 0;
+				align-items: center;
+			}
+
+			@include tablet {
 				padding-left: 0;
 				align-items: center;
 			}
