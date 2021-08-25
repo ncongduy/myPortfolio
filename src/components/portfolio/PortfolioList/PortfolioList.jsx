@@ -1,16 +1,20 @@
 import { React } from 'react';
-import PortfolioItem from './PortfolioItem/PortfolioItem';
-
+import './portfolioList.scss';
 
 export const PortfolioList = ({ list, selected, setSelected }) => {
 	return (
 		<ul>
 			{list.map((item) => (
-				<PortfolioItem
-					id={item.id}
-					title={item.title}
-					active={selected === item.id}
-					setSelected={setSelected} />
+				<li
+					className={
+						selected === item.id
+							? 'portfolioList active'
+							: 'portfolioList'
+					}
+					onClick={() => setSelected(item.id)}
+				>
+					{item.title}
+				</li>
 			))}
 		</ul>
 	);
