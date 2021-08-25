@@ -1,17 +1,17 @@
-import React from 'react';
+import React, { useContext } from 'react';
 import './topbar.scss';
 import { RightTopbar } from './RightTopbar';
 import { LeftTopbar } from './LeftTopbar';
+import { OpenContext } from '../../App';
 
-export default function Topbar({ menuOpen, setMenuOpen }) {
+export default function Topbar() {
+	const [menuOpen, setMenuOpen] = useContext(OpenContext);
 	return (
 		<div className={menuOpen ? 'topbar active' : 'topbar'} id="topbar">
 			<div className="wrapper">
 				<LeftTopbar />
-				<RightTopbar menuOpen={menuOpen} setMenuOpen={setMenuOpen} />
+				<RightTopbar />
 			</div>
 		</div>
 	);
 }
-
-

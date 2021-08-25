@@ -4,7 +4,7 @@ export const Container = ({ data }) => {
 	return (
 		<div className="container">
 			{data.map((dt) => (
-				<a className="item" href={dt.link} target="blank">
+				<a className="item" href={dt.link} target="blank" key={dt.id}>
 					<img
 						src={process.env.PUBLIC_URL + dt.img}
 						alt={dt.title}

@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useContext } from 'react';
+import { OpenContext } from '../../App';
 import './menu.scss';
 
-export default function Menu({ menuOpen, setMenuOpen }) {
+export default function Menu() {
+	const [menuOpen, setMenuOpen] = useContext(OpenContext);
+
 	return (
 		<div className={menuOpen ? 'menu active' : 'menu'}>
 			<ul>

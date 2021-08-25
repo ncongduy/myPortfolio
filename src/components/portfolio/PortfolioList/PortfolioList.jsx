@@ -12,6 +12,7 @@ export const PortfolioList = ({ list, selected, setSelected }) => {
 							: 'portfolioList'
 					}
 					onClick={() => setSelected(item.id)}
+					key={item.id}
 				>
 					{item.title}
 				</li>
