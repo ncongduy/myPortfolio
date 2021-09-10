@@ -45,9 +45,9 @@ export const javascriptPortfolio = [
 	},
 	{
 		id: 2,
-		title: 'JavaScript app',
-		img: '/assets/img/javascript.jpg',
-		link: '#',
+		title: 'Music Player',
+		img: '/assets/img/music-player.jpg',
+		link: 'https://ncongduy.github.io/music-player/',
 	},	
 ];
 
