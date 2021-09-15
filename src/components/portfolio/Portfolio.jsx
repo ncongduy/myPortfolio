@@ -6,7 +6,6 @@ import {
 	javascriptPortfolio,
 	reactPortfolio,
 	reduxPortfolio,
-	nodePortfolio,
 } from '../../data';
 import { Container } from './Container/Container';
 import { PortfolioList } from './PortfolioList/PortfolioList';
@@ -28,9 +27,6 @@ export default function Portfolio() {
 				break;
 			case 'redux':
 				setData(reduxPortfolio);
-				break;
-			case 'node.js':
-				setData(nodePortfolio);
 				break;
 			default:
 				setData(htmlCssPortfolio);

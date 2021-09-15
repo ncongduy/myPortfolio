@@ -15,10 +15,6 @@ export const list = [
 		id: 'redux',
 		title: 'Redux',
 	},
-	{
-		id: 'node.js',
-		title: 'Node.js',
-	},
 ];
 
 export const htmlCssPortfolio = [
@@ -27,12 +23,6 @@ export const htmlCssPortfolio = [
 		title: 'W3_band',
 		img: '/assets/img/html-css-exercise1.jpg',
 		link: 'https://ncongduy.github.io/f8-shop/w3_band/index.html',
-	},
-	{
-		id: 2,
-		title: 'HTML and CSS website',
-		img: '/assets/img/html-css.jpg',
-		link: '#',
 	},		
 ];
 
@@ -54,46 +44,24 @@ export const javascriptPortfolio = [
 export const reactPortfolio = [
 	{
 		id: 1,
-		title: 'React app',
-		img: '/assets/img/react.jpg',
-		link: '#',
+		title: 'Jamming',
+		img: '/assets/img/react1.jpg',
+		link: 'https://ncongduy.github.io/jamming/',
 	},
 	{
 		id: 2,
-		title: 'React app',
-		img: '/assets/img/react.jpg',
-		link: '#',
-	},		
+		title: 'Alarm clock',
+		img: '/assets/img/react2.jpg',
+		link: 'https://ncongduy.github.io/alarm-clock/',
+	},
 ];
 
 export const reduxPortfolio = [
 	{
 		id: 1,
-		title: 'Redux app',
-		img: '/assets/img/redux.jpg',
-		link: '#',
+		title: 'Redux Matching Memory',
+		img: '/assets/img/redux1.jpg',
+		link: 'https://ncongduy.github.io/redux-matching-memory/',
 	},
-	{
-		id: 2,
-		title: 'Redux app',
-		img: '/assets/img/redux.jpg',
-		link: '#',
-	},	
-];
-
-
-export const nodePortfolio = [
-	{
-		id: 1,
-		title: 'Node.js app',
-		img: '/assets/img/node.jpg',
-		link: '#',
-	},
-	{
-		id: 2,
-		title: 'Node.js app',
-		img: '/assets/img/node.jpg',
-		link: '#',
-	},		
 ];
 
