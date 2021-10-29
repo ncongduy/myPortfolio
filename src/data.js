@@ -11,18 +11,14 @@ export const list = [
 		id: 'react',
 		title: 'React',
 	},
-	{
-		id: 'redux',
-		title: 'Redux',
-	},
 ];
 
 export const htmlCssPortfolio = [
 	{
 		id: 1,
-		title: 'W3_band',
-		img: '/assets/img/html-css-exercise1.jpg',
-		link: 'https://ncongduy.github.io/f8-shop/w3_band/index.html',
+		title: 'Project 1 - Udacity',
+		img: '/assets/img/project1-udacity.jpg',
+		link: 'https://ncongduy.github.io/personal-blog-website/homepage.html',
 	},		
 ];
 
@@ -32,13 +28,13 @@ export const javascriptPortfolio = [
 		title: 'Matching game',
 		img: '/assets/img/matching-game.png',
 		link: 'https://ncongduy.github.io/fend-project-memory-game/',
-	},
+	},	
 	{
 		id: 2,
-		title: 'Music Player',
-		img: '/assets/img/music-player.jpg',
-		link: 'https://ncongduy.github.io/music-player/',
-	},	
+		title: 'Project 2 - Udacity',
+		img: '/assets/img/project2-udacity.jpg',
+		link: 'https://ncongduy.github.io/landing-page-project2-udacity/',
+	},
 ];
 
 export const reactPortfolio = [
