@@ -5,7 +5,6 @@ import {
 	udacityPortfolio,
 	codecademyPortfolio,
 	f8Portfolio,
-	pluralsightPortfolio,
 } from '../../data';
 import { Container } from './Container/Container';
 import { PortfolioList } from './PortfolioList/PortfolioList';
@@ -24,9 +23,6 @@ export default function Portfolio() {
 				break;
 			case 'f8':
 				setData(f8Portfolio);
-				break;
-			case 'pluralsight':
-				setData(pluralsightPortfolio);
 				break;
 			default:
 				setData(udacityPortfolio);
