@@ -8,7 +8,6 @@ export const Container = ({ data }) => {
 					<img
 						src={process.env.PUBLIC_URL + dt.img}
 						alt={dt.title}
-						width="440px"
 					/>
 					<h3>{dt.title}</h3>
 				</a>

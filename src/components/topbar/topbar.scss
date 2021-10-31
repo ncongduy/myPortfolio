@@ -2,7 +2,7 @@
 
 .topbar {
 	width: 100%;
-	height: 70px;
+	height: 80px;
 	background-color: #fff;
 	color: $mainColor;
 	position: fixed;
@@ -21,7 +21,7 @@
 			align-items: center;
 
 			.logo {
-				font-size: 40px;
+				font-size: 50px;
 				font-weight: 700;
 				text-decoration: none;
 				color: inherit;
@@ -29,7 +29,7 @@
 			}
 
 			.itemContainer {
-				margin-left: 30px;
+				margin-left: 40px;
 				
 				@include mobile {
 					display: none;
@@ -44,14 +44,15 @@
 					align-items: center;
 					text-decoration: none;
 					color: $mainColor;
+					cursor: pointer;
 
 					.icon {
-						font-size: 18px;
+						font-size: 24px;
 						margin-right: 5px;
 					}
 
 					span {
-						font-size: 15px;
+						font-size: 16px;
 						font-weight: 500;
 					}
 				}

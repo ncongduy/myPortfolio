@@ -10,7 +10,7 @@ import { Container } from './Container/Container';
 import { PortfolioList } from './PortfolioList/PortfolioList';
 
 export default function Portfolio() {
-	const [selected, setSelected] = useState('html&css');
+	const [selected, setSelected] = useState('udacity');
 	const [data, setData] = useState([]);
 
 	useEffect(() => {
@@ -31,8 +31,6 @@ export default function Portfolio() {
 
 	return (
 		<div className='portfolio' id='portfolio'>
-			{/* <h1>My Learning</h1> */}
-
 			<PortfolioList
 				list={list}
 				selected={selected}

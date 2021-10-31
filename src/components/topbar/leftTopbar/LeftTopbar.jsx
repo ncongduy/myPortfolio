@@ -1,5 +1,7 @@
 import React from 'react';
-import { PhoneIphone, Mail, LinkedIn, GitHub } from '@material-ui/icons';
+import HomeIcon from '@mui/icons-material/Home';
+import ContactsIcon from '@mui/icons-material/Contacts';
+import AutoStoriesIcon from '@mui/icons-material/AutoStories';
 
 export const LeftTopbar = () => {
 	return (
@@ -10,19 +12,26 @@ export const LeftTopbar = () => {
 
 			<div className='itemContainer'>
 				<div className='itemBox'>
-					<PhoneIphone className='icon' />
-					<span>+358 46 681 5155</span>
+					<HomeIcon className='icon' />
+					<span>Home</span>
 				</div>
 			</div>
 
 			<div className='itemContainer'>
 				<div className='itemBox'>
-					<Mail className='icon' />
-					<span>ncongduy@gmail.com</span>
+					<AutoStoriesIcon className='icon' />
+					<span>My learning</span>
 				</div>
 			</div>
 
 			<div className='itemContainer'>
+				<div className='itemBox'>
+					<ContactsIcon className='icon' />
+					<span>Contact</span>
+				</div>
+			</div>
+
+			{/* <div className='itemContainer'>
 				<a
 					href='https://www.linkedin.com/in/duy-nguyen-55b850197/'
 					target='blank'
@@ -42,7 +51,7 @@ export const LeftTopbar = () => {
 					<GitHub className='icon' />
 					<span>GitHub</span>
 				</a>
-			</div>
+			</div> */}
 		</div>
 	);
 };
