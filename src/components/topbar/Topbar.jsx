@@ -5,7 +5,8 @@ import { LeftTopbar } from './leftTopbar/LeftTopbar';
 import { OpenContext } from '../../App';
 
 export default function Topbar() {
-	const [menuOpen] = useContext(OpenContext);
+	const {menuOpen} = useContext(OpenContext);
+
 	return (
 		<div className={menuOpen ? 'topbar active' : 'topbar'} id="topbar">
 			<div className="wrapper">

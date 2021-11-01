@@ -3,7 +3,7 @@ import { OpenContext } from '../../App';
 import './menu.scss';
 
 export default function Menu() {
-	const [menuOpen, setMenuOpen] = useContext(OpenContext);
+	const {menuOpen, setMenuOpen} = useContext(OpenContext);
 
 	return (
 		<div className={menuOpen ? 'menu active' : 'menu'}>
@@ -14,7 +14,7 @@ export default function Menu() {
 				<li onClick={() => setMenuOpen(false)}>
 					<a href="#portfolio">My Learning</a>
 				</li>
-				<li onClick={() => setMenuOpen(false)} className="contact">
+				<li onClick={() => setMenuOpen(false)}>
 					<a href="#contact">Contact</a>
 				</li>
 			</ul>

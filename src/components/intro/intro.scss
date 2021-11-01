@@ -3,7 +3,7 @@
 .intro {
 	background-color: #fff;
 	display: flex;
-	margin: 80px 0;
+	padding: 80px 0;
 	width: 100%;
 	height: $height;
 
@@ -32,20 +32,23 @@
 
 		.img-container {
 			width: 100%;
+			height: 100%;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+
+			@include tablet {					
+				display: flex;
+				justify-content: center;							
+			}
 
 			img {
-				width: 24vw;;
-				margin-left: 20vh;
+				height: 80%;
 				border-radius: 10px;
 				
 				@include mobile {
-					height: 50%;
-					margin-left: 0;					
-				}
-
-				@include tablet {					
-					margin-left: 0;					
-				}
+					height: 90%;										
+				}				
 			}
 		}
 	}

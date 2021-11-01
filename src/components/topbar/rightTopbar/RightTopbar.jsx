@@ -2,7 +2,7 @@ import React, { useContext } from 'react';
 import { OpenContext } from '../../../App';
 
 export const RightTopbar = () => {
-	const [menuOpen, setMenuOpen] = useContext(OpenContext);
+	const {menuOpen, setMenuOpen} = useContext(OpenContext);
 	return (
 		<div className="right">
 			<div className="hamburger" onClick={() => setMenuOpen(!menuOpen)}>

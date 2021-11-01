@@ -15,9 +15,11 @@ export default function Contact() {
 			</div>
 
 			<div className='boxContainer'>
-				<MailComponent />
-				<LinkedInComponent />
-				<GitHubComponent />
+				<div className='boxComponent'>
+					<MailComponent />
+					<LinkedInComponent />
+					<GitHubComponent />
+				</div>
 			</div>
 		</div>
 	);

@@ -64,6 +64,16 @@
 		}
 
 		.right {
+			display: none;
+
+			@include tablet {
+				display: block;
+			}
+
+			@include mobile {
+				display: block;
+			}
+
 			.hamburger {
 				width: 32px;
 				height: 25px;

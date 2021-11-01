@@ -3,6 +3,7 @@
 .menu {
     width: 300px;
     height: 100vh;
+    padding-top: 80px;
     background-color: $mainColor;
     position: fixed;
     top: 0;
@@ -37,22 +38,6 @@
 
             &:hover {
                 font-weight: 500;
-            }
-        }
-
-        .contact {
-            display: none;
-
-            @include mobile {
-                display: block;
-                color: #fff;
-                background-color: $mainColor;
-            }
-
-            @include tablet {
-                display: block;
-                color: #fff;
-                background-color: $mainColor;
             }
         }
     }

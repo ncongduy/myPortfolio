@@ -11,35 +11,51 @@
 
 	@include mobile {
 		display: flex;
+		flex-direction: column;
 	}
 
 	@include tablet {
 		display: flex;
+		flex-direction: column;
 	}
 
 	.boxContainer {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
+		align-items: center;
 		width: 40%;
 
-		.itemContainer {
-			margin: 0.5rem;
+		@include tablet {
+			width: 100%;
+		}
 
-			.itemBox {
-				display: flex;
-				align-items: center;
-				text-decoration: none;
-				color: $mainColor;
+		@include mobile {
+			width: 100%;
+		}
 
-				.icon {
-					font-size: 24px;
-					margin-right: 10px;
-				}
+		.boxComponent {
+			display: flex;
+			flex-direction: column;
 
-				span {
-					font-size: 20px;
-					font-weight: 500;
+			.itemContainer {
+				margin: 0.5rem;
+
+				.itemBox {
+					display: flex;
+					align-items: center;
+					text-decoration: none;
+					color: $mainColor;
+
+					.icon {
+						font-size: 24px;
+						margin-right: 10px;
+					}
+
+					span {
+						font-size: 20px;
+						font-weight: 500;
+					}
 				}
 			}
 		}
@@ -47,9 +63,17 @@
 
 	.contactImg {
 		width: 40%;
-		
+
+		@include tablet {
+			width: 80%;
+		}
+
+		@include mobile {
+			display: none;
+		}
+
 		img {
-			width: 100%;			
+			width: 100%;
 		}
 	}
 }

@@ -11,47 +11,25 @@ export const LeftTopbar = () => {
 			</a>
 
 			<div className='itemContainer'>
-				<div className='itemBox'>
+				<a href='#intro' className='itemBox'>
 					<HomeIcon className='icon' />
 					<span>Home</span>
-				</div>
+				</a>
 			</div>
 
 			<div className='itemContainer'>
-				<div className='itemBox'>
+				<a href='#portfolio' className='itemBox'>
 					<AutoStoriesIcon className='icon' />
 					<span>My learning</span>
-				</div>
+				</a>
 			</div>
 
 			<div className='itemContainer'>
-				<div className='itemBox'>
+				<a href='#contact' className='itemBox'>
 					<ContactsIcon className='icon' />
 					<span>Contact</span>
-				</div>
-			</div>
-
-			{/* <div className='itemContainer'>
-				<a
-					href='https://www.linkedin.com/in/duy-nguyen-55b850197/'
-					target='blank'
-					className='itemBox'
-				>
-					<LinkedIn className='icon' />
-					<span>LinkedIn</span>
 				</a>
 			</div>
-
-			<div className='itemContainer'>
-				<a
-					href='https://github.com/ncongduy'
-					target='blank'
-					className='itemBox'
-				>
-					<GitHub className='icon' />
-					<span>GitHub</span>
-				</a>
-			</div> */}
 		</div>
 	);
 };
