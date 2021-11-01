@@ -14,7 +14,12 @@ function App() {
 
 	return (
 		<div className='app'>
-			<OpenContext.Provider value={{menuOpen, setMenuOpen,}}>
+			<OpenContext.Provider
+				value={{
+					menuOpen,
+					setMenuOpen,
+				}}
+			>
 				<Topbar />
 				<Menu />
 				<Intro />
