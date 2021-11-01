@@ -5,6 +5,7 @@
 	display: flex;
 	margin: 80px 0;
 	width: 100%;
+	height: $height;
 
 	@include mobile {
 		flex-direction: column;

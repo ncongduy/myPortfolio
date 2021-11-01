@@ -1,12 +1,12 @@
 import React from 'react';
-import { Mail } from '@material-ui/icons';
+import EmailIcon from '@mui/icons-material/Email';
 
 
 export const MailComponent = () => {
 	return (
 		<div className="itemContainer">
-			<div href="#intro" className="itemBox">
-				<Mail className="icon" />
+			<div className="itemBox">
+				<EmailIcon className="icon" />
 				<span>ncongduy@gmail.com</span>
 			</div>
 		</div>

@@ -6,8 +6,15 @@ import { GitHubComponent } from './github/GitHubComponent';
 
 export default function Contact() {
 	return (
-		<div className="contact" id="contact">
-			<div className="boxContainer">
+		<div className='contact' id='contact'>
+			<div className='contactImg'>
+				<img
+					src={process.env.PUBLIC_URL + '/assets/img/contact.jpg'}
+					alt='contact'
+				/>
+			</div>
+
+			<div className='boxContainer'>
 				<MailComponent />
 				<LinkedInComponent />
 				<GitHubComponent />
@@ -15,5 +22,3 @@ export default function Contact() {
 		</div>
 	);
 }
-
-

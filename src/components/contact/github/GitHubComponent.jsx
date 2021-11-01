@@ -1,16 +1,16 @@
 import React from 'react';
-import { GitHub } from '@material-ui/icons';
+import GitHubIcon from '@mui/icons-material/GitHub';
 
 
 export const GitHubComponent = () => {
 	return (
 		<div className="itemContainer">
 			<a
-				href="https://github.com/ncongduy?tab=repositories"
+				href="https://github.com/ncongduy"
 				target="blank"
 				className="itemBox"
 			>
-				<GitHub className="icon" />
+				<GitHubIcon className="icon" />
 				<span>GitHub</span>
 			</a>
 		</div>

@@ -1,5 +1,5 @@
 import React from 'react';
-import { LinkedIn } from '@material-ui/icons';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
 
 
 export const LinkedInComponent = () => {
@@ -10,7 +10,7 @@ export const LinkedInComponent = () => {
 				target="blank"
 				className="itemBox"
 			>
-				<LinkedIn className="icon" />
+				<LinkedInIcon className="icon" />
 				<span>LinkedIn</span>
 			</a>
 		</div>

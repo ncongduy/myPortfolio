@@ -3,31 +3,29 @@
 .contact {
 	background-color: #fff;
 	color: $mainColor;
-	flex-direction: column;
-	justify-content: center;
+	height: $height;
+	display: flex;
+	justify-content: space-evenly;
 	align-items: center;
+	width: 100%;
 
-    @include mobile {
-        display: flex;
-    }
+	@include mobile {
+		display: flex;
+	}
 
 	@include tablet {
-        display: flex;
-    }
-
-	h1 {
-		font-size: 60px;
-		margin-bottom: 52px;
+		display: flex;
 	}
 
 	.boxContainer {
 		display: flex;
 		flex-direction: column;
-		justify-content: space-between;
-		height: 160px;
-		margin-bottom: 50px;
+		justify-content: center;
+		width: 40%;
 
 		.itemContainer {
+			margin: 0.5rem;
+
 			.itemBox {
 				display: flex;
 				align-items: center;
@@ -43,7 +41,15 @@
 					font-size: 20px;
 					font-weight: 500;
 				}
-			}			
+			}
+		}
+	}
+
+	.contactImg {
+		width: 40%;
+		
+		img {
+			width: 100%;			
 		}
 	}
 }
