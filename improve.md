@@ -5,3 +5,4 @@
 - refactor Topbar component: delete Right component, don't need to use hamburger icon
 - don't need to use Menu component
 - try to use React Dom
+- fix UI tablet at Contact component

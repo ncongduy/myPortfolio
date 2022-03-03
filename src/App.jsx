@@ -1,10 +1,11 @@
 import React, { useState } from 'react';
-import './app.scss';
+
 import Contact from './components/contact/Contact';
 import Intro from './components/intro/Intro';
 import Menu from './components/menu/Menu';
 import Portfolio from './components/portfolio/Portfolio';
 import Topbar from './components/topbar/Topbar';
+import './app.scss';
 
 // use React Context
 export const OpenContext = React.createContext();

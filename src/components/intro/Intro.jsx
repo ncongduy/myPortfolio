@@ -12,16 +12,14 @@ export default function Intro() {
 			showCursor: false,
 			backDelay: 1500,
 			backSpeed: 60,
-			strings: ['Front-end'],
+			strings: ['Front-end', 'Back-end'],
 		});
 	}, []);
 
 	return (
-		<div className="intro" id="intro">
+		<div className='intro' id='intro'>
 			<LeftIntro />
 			<RightIntro textRef={textRef} />
 		</div>
 	);
 }
-
-
