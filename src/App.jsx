@@ -11,9 +11,9 @@ function App() {
 			<Topbar />
 
 			<Routes>
-				<Route path='/' element={<Intro />} />
-				<Route path='/portfolio' element={<Portfolio />} />
-				<Route path='/contact' element={<Contact />} />
+				<Route path='/myPortfolio' element={<Intro />} />
+				<Route path='/myPortfolio/portfolio' element={<Portfolio />} />
+				<Route path='/myPortfolio/contact' element={<Contact />} />
 			</Routes>
 		</div>
 	);

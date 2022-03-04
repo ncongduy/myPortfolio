@@ -1,54 +1,27 @@
+import { Link } from 'react-router-dom';
+
 import HomeIcon from '@mui/icons-material/Home';
 import ContactsIcon from '@mui/icons-material/Contacts';
 import AutoStoriesIcon from '@mui/icons-material/AutoStories';
-
 import './topbar.scss';
 
 export default function Topbar() {
-	function handleClick(evt) {
-		let element = evt.target;
-		let parentElement;
-
-		do {
-			parentElement = element.parentElement;
-			if (parentElement.className === 'itemBox') {
-				break;
-			}
-
-			element = parentElement;
-		} while (true);
-
-		const nameElementScrollTo = parentElement.dataset.id;
-		const elementScrollTo = document.getElementById(nameElementScrollTo);
-		elementScrollTo.scrollIntoView({ behavior: 'smooth' });
-	}
-
 	return (
-		<div className='wrapper'>
-			<a href='#intro' className='logo'>
-				ncd.
-			</a>
+		<div className='topbar'>
+			<Link to={`/myPortfolio`} className='topbar__item'>
+				<HomeIcon className='topbar__icon' />
+				<span>Home</span>
+			</Link>
 
-			<div className='itemContainer' onClick={handleClick}>
-				<div data-id='intro' className='itemBox'>
-					<HomeIcon className='icon' />
-					<span>Home</span>
-				</div>
-			</div>
+			<Link to={`/myPortfolio/portfolio`} className='topbar__item'>
+				<AutoStoriesIcon className='topbar__icon' />
+				<span>My learning</span>
+			</Link>
 
-			<div className='itemContainer' onClick={handleClick}>
-				<div data-id='portfolio' className='itemBox'>
-					<AutoStoriesIcon className='icon' />
-					<span>My learning</span>
-				</div>
-			</div>
-
-			<div className='itemContainer' onClick={handleClick}>
-				<div data-id='contact' className='itemBox'>
-					<ContactsIcon className='icon' />
-					<span>Contact</span>
-				</div>
-			</div>
+			<Link to={`/myPortfolio/contact`} className='topbar__item'>
+				<ContactsIcon className='topbar__icon' />
+				<span>Contact</span>
+			</Link>
 		</div>
 	);
 }
