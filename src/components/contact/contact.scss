@@ -63,13 +63,14 @@
 
 	.contactImg {
 		width: 40%;
+		border-radius: 1rem;
 
 		@include tablet {
 			width: 80%;
 		}
 
 		@include mobile {
-			display: none;
+			width: 90%;
 		}
 
 		img {

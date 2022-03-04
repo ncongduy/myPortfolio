@@ -12,7 +12,7 @@ export default function Intro() {
 			showCursor: false,
 			backDelay: 1500,
 			backSpeed: 60,
-			strings: ['Front-end', 'Back-end'],
+			strings: ['Front-end', 'Back-end', 'Full-stack'],
 		});
 	}, []);
 

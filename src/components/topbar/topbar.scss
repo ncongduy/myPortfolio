@@ -29,6 +29,12 @@
 			background-color: $mainColor;
 			color: #fff;
 		}
+
+		span {
+			@include mobile {
+				display: none;
+			}
+		}
 	}
 
 	&__icon {
