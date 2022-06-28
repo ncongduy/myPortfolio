@@ -1,4 +1,4 @@
-import { Link } from 'react-router-dom';
+import {Link} from 'react-router-dom';
 
 import HomeIcon from '@mui/icons-material/Home';
 import ContactsIcon from '@mui/icons-material/Contacts';
@@ -15,7 +15,7 @@ export default function Topbar() {
 
 			<Link to={`/myPortfolio/portfolio`} className='topbar__item'>
 				<AutoStoriesIcon className='topbar__icon' />
-				<span>My learning</span>
+				<span>My projects</span>
 			</Link>
 
 			<Link to={`/myPortfolio/contact`} className='topbar__item'>
