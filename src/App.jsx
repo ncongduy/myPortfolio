@@ -2,7 +2,7 @@ import {Routes, Route} from 'react-router-dom';
 
 import Topbar from './components/topbar';
 import HomePage from './pages/homepage';
-import Portfolio from './pages/portfolio';
+import Projects from './pages/projects';
 import Contact from './pages/contact';
 
 function App() {
@@ -12,7 +12,7 @@ function App() {
 
       <Routes>
         <Route path="/myPortfolio" element={<HomePage />} />
-        <Route path="/myPortfolio/portfolio" element={<Portfolio />} />
+        <Route path="/myPortfolio/projects" element={<Projects />} />
         <Route path="/myPortfolio/contact" element={<Contact />} />
       </Routes>
     </>

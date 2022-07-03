@@ -1,3 +1,34 @@
+export const recentProjects = [
+	{
+		id: 1,
+		title: 'Country information',
+		img: 'assets/img/recentProjects/country-information.png',
+		demoLink: 'https://country-information-app.netlify.app/',
+		sourceCode: 'https://github.com/ncongduy/country-information',
+		techStack: 'TypeScript, React, Redux, Redux-Thunk, React Router Dom, Material-UI',
+		description: 'The website is build to find information about 250 countries in the world.',
+	},
+	{
+		id: 2,
+		title: 'Multi-travel app',
+		img: 'assets/img/recentProjects/multi-travel-app.jpg',
+		demoLink: 'https://travel-app-project5-udacity.herokuapp.com/',
+		sourceCode: 'https://github.com/ncongduy/travel-app-project5-udacity',
+		techStack: 'Express.js, localStorage, JavaScript, SCSS, Service Workers, Webpack, Jest',
+		description:
+			'A web-based application, which provides the users with the location, time, temperature and date based on their location.',
+	},
+	{
+		id: 3,
+		title: 'Portfolio',
+		img: 'assets/img/recentProjects/myPortfolio.png',
+		demoLink: 'https://ncongduy.github.io/myPortfolio',
+		sourceCode: 'https://github.com/ncongduy/myPortfolio',
+		techStack: 'React, React Router Dom, SCSS',
+		description: 'This is my portfolio which shows my projects, CV and contact information.',
+	},
+];
+
 export const list = [
 	{
 		id: 'udacity',

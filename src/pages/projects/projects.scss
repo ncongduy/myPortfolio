@@ -1,0 +1,25 @@
+@import '../../global.scss';
+
+.projects {
+  width: 80%;
+  min-height: $height;
+  margin: 0 auto;
+  // border: 3px solid cyan;
+
+  display: flex;
+  align-items: center;
+
+  &__row {
+    // border: 3px solid tomato;
+  }
+
+  &__col {
+    // border: 3px solid orange;
+
+    display: flex;
+    justify-content: center;
+
+    padding-top: 1rem;
+    padding-right: 1rem;
+  }
+}

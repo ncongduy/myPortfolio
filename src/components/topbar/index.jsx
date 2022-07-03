@@ -15,7 +15,7 @@ export default function Topbar() {
 				<span>Home</span>
 			</Link>
 
-			<Link to={`/myPortfolio/portfolio`} className="topbar__item">
+			<Link to={`/myPortfolio/projects`} className="topbar__item">
 				<AutoStoriesIcon className="topbar__icon" />
 				<span>My projects</span>
 			</Link>
